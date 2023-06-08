@@ -20,6 +20,8 @@ To run this project locally, navigate to the root directory within your preferre
 
 To start the program locally, navigate to the root directory and run `npm run start:dev`. This will run the server, and then build out the client using webpack. Once your CLI indicates that the service worker is functioning and caching static assets, you can pull up `localhost:3000` in the browser. From there, simply type as much as you please and the data will persist on page reload. To install the application outside of the browser, you can press the install button on the top of the screen, or press the install button in your browser window.
 
+<a href="https://protected-inlet-92631.herokuapp.com/">Link to deployed application</a>
+
 ## <a id="questions"></a>Questions 
 
 Any questions or concerns regarding the project, you can contact me via my email: zserafin@hotmail.com
