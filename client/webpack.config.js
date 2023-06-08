@@ -24,9 +24,11 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'Text Editor',
         short_name: 'JATE',
         description: 'Edit text with highlighted JS syntax!',
@@ -38,7 +40,7 @@ module.exports = () => {
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('src', 'icons'),
+            destination: path.join('assets', 'icons'),
           },
         ],
       }),
