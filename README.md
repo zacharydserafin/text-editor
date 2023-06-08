@@ -22,6 +22,8 @@ To start the program locally, navigate to the root directory and run `npm run st
 
 <a href="https://protected-inlet-92631.herokuapp.com/">Link to deployed application</a>
 
+<img src="./screenshot.png">
+
 ## <a id="questions"></a>Questions 
 
 Any questions or concerns regarding the project, you can contact me via my email: zserafin@hotmail.com
